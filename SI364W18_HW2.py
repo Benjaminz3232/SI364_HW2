@@ -7,7 +7,7 @@
 ## Add view functions and any other necessary code to this Flask application code below so that the routes described in the README exist and render the templates they are supposed to (all templates provided are inside the templates/ directory, where they should stay).
 
 ## As part of the homework, you may also need to add templates (new .html files) to the templates directory.
-
+#Sadie Staudacher
 #############################
 ##### IMPORT STATEMENTS #####
 #############################
