@@ -1,0 +1,11 @@
+{% block content %}
+<form method="POST" action="http://localhost:5000/album_result">
+      {{ form.hidden_tag() }}
+      {% for message in get_flashed_messages() %} <!-- will send an error only if there is an -->
+      {{ message }}
+      {% endfor %}
+      <p>{{ form.album_name.label }}{{ form.album_name() }}</p> <!-- creating an instance of the name from the class -->
+      <p>{{ form.like_options.label }}{{ form.like_options() }}</p> <!-- creating an instance of the age from the class -->
+      {{ form.submit() }}
+  </form>
+{% endblock %}
